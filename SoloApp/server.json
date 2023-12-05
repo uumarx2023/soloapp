@@ -1,0 +1,9 @@
+{
+    "serverport": 8000,
+
+    "windows":[],
+
+    "infocines":{
+        "database" : "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=e:\\inetpub\\wwwroot\\Infocine\\db\\cines.mdb;"
+    }
+}

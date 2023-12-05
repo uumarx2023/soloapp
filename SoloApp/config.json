@@ -1,0 +1,13 @@
+{
+    "serverport": 8000,
+
+    "windows":[{
+        "screen": 0,
+        "url": "http://localhost:8000/",
+        "debug": true
+    }],
+
+    "infocines":{
+        "database" : "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\\infocine\\cines.mdb;"
+    }
+}

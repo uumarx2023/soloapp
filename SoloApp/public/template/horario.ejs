@@ -1,0 +1,75 @@
+<style>
+	.divhorario {
+		width: 100%;
+		height: 100%;
+	}
+
+
+    .visor-image-horario {
+        height: 80%;        
+    }        
+
+    .visor-horario {
+        width: 100%;
+        margin-top: 50px;
+    }        
+
+    .visor-hora {
+        color: black;
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        font-size: 100px;
+        font-weight: bold;      
+    }       
+    
+    .visor-horario-footer {
+        width: 100%;
+        font-size: 32;
+        position: absolute;
+        bottom: 18px;        
+    }
+
+    .visor-classif, .visor-duracio {
+        position: absolute;
+        bottom: 0px;
+        color: white;
+        border-color: white;
+        border-style: solid;
+        border-width: 2px;
+        font-weight: bold;
+    }
+
+
+    .visor-classif {
+        background-color: red;
+        left: 36px;
+        padding-left: 6px;
+        padding-right: 6px;        
+    }
+
+    .visor-duracio {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: green;
+        right: 36px;
+    }
+
+</style>
+
+<div class="divhorario">
+<img class='visor-image-horario' src='/images/path1/<%= path %>'>
+
+<div class="visor-horario">
+    <div class="visor-hora"><%= h1 %></div>
+    <div class="visor-hora"><%= h2 %></div>
+    <div class="visor-hora"><%= h3 %></div>
+</div>
+
+<div class="visor-horario-footer">
+    <div class="visor-classif"><%= txtclassif %></div>
+    <div class="visor-duracio"><%= duracio %> Min.</div>
+</div>
+</div>
+
+
